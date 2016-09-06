@@ -1,0 +1,78 @@
+#featured a {
+	color: #263238;
+}
+
+.big-featured {
+	padding: 0px !important;
+}
+
+.big-featured .post-meta{
+	
+	width: 500px;
+	height: auto;
+	background: #fff;
+	padding: 15px;
+	position: absolute;
+		bottom: 10px;
+		left: 10px;
+	z-index: 1;
+}
+
+.big-featured .post-meta h3{
+	font-size: 25px !important;
+	font-weight: bold;
+}
+
+.side-featured {
+	height: 100%;
+	padding: 0px 0px 1px 0px !important;
+	/*background: #444;*/
+}
+
+.side-featured ul{
+	margin-top: 10px;
+	margin-bottom: 0px;
+    padding-left: 5px;
+}
+
+.side-featured li{
+	height: 80px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.side-featured li:hover{
+	box-shadow: 1px 2px 15px #e0e0e0;
+}
+
+
+.side-featured li .thumb{
+	height: 100%;
+	padding-top: 5px;
+}
+
+.side-featured li .thumb img{
+	height: 93%;
+}
+
+.side-featured li .post-meta{
+	width: 65%;
+	padding-top: 0px;
+}
+.side-featured li .post-meta h4{
+	font-size: 13px;
+	line-height: 1.3em;
+	font-weight: bold;
+	word-wrap: break-word;
+	margin: 5px 0px;
+}
+
+.side-featured li .post-meta span{
+	font-size: 10px;
+	margin-right: 10px;
+	color: #8c8b8b;
+}
+
+.side-featured li .post-meta span i{
+	margin-right: 5px;
+}
